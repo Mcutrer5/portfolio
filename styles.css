@@ -23,7 +23,6 @@ img {
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100%;
-
 }
 
 .menu {
@@ -234,7 +233,7 @@ img.topimg:hover {
 }
 
 .display-middle {
-    font-family: Verdana,Geneva,sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -474,9 +473,6 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-    /* min-width: 800px;
-    max-width: 800px; */
-
     position: relative;
     margin: auto;
     box-shadow: 0.5em 0.5em 5em #777777, 0.5em 0.5em 5em rgba(0, 0, 0, 0.5);
