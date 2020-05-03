@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<title>Plans</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+.imageborder {
+	border: solid;
+color: #fff, width: 10px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 5%;
+}
+
+li {
+	background-color: #fff;
+	}
+	
+.border {
+	background-color: #fff;
+	margin-left:15%;
+	margin-right:15%
+}
+</style>
+<body background="images/vertical.jpg">
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <!--<a href="index.html" class="w3-button w3-block">Home</a>-->
+      <a href="index.html" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block">Plans</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block">About</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="contact.html" class="w3-button w3-block">Contact</a>
+    </div>
+  </div>
+</div>
+<!--<div class="imageborder">-->
+<div class="border">
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>Wild River Rapids</b></h1>
+    
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="images/sign.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Welcome!</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="images/cliffside.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">A beautiful view of the Ozark Mountains!</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="images/banner.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">A view from the Ozarks during Autumn!</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h3>Pricing Plans</h3>
+      <p>&nbsp;</p>
+</div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Entry/No Rental/No tour</li>
+        <li class="w3-padding-16"><b>This plan is for those that are experienced and have their own equipment. All personal equipment is not the responsibility of Wild River Rapids.</b></li>
+        <li>$120 Trips for up to three paddlers(additional paddlers - $30 each - up to eight maximum)</li>
+        <li>All of our trips include (if desired or needed) for no extra charge :</li>
+        <li> Comfortable Pick-up and Transportation both To and From the River</li>
+        <li> Emailed Experienced Photos</li>
+        <li>Snacks and Beverages</li>
+        <li> Amenities such as Sunscreen, Insect Repellant, Towels, Etc.</li>
+        <li> Paddling Instruction</li>
+        <li>Professional and Courteous Treatment</li>
+        
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity">per person</span></li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large"><a href="about.html" style="text-decoration: none;">Contact us</a></button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Entry/Full Two-Day Tour</li>
+        <li class="w3-padding-16">Experienced Paddle Captain trained on river conditions, river rescue, swift water rescue, and emergency medical procedures</li>
+        <li class="w3-padding-16">Lunch &amp; dinner on day one and breakfast &amp; lunch on day two</li>
+        <li class="w3-padding-16">Helicopter flight out of the rapids on day two. If   you prefer not to fly then other arrangements can be made</li>
+        <li> Emailed Experienced Photos</li>
+        <li>Snacks and Beverages</li>
+        <li> Amenities such as Sunscreen, Insect Repellant, Towels, Etc.</li>
+        <li> Paddling Instruction</li>
+        <li>Professional and Courteous Treatment</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 100</h2>
+          <span class="w3-opacity">per person</span></li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large"><a href="about.html" style="text-decoration: none;">Contact Us</a></button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Full Tour</li>
+        <li class="w3-padding-16">Fully accomadated</li>
+        <li class="w3-padding-16">Experienced Paddle Captain trained on river conditions, river rescue, swift water rescue, and emergency medical procedures</li>
+        <li class="w3-padding-16">Lunch &amp; dinner on day one and breakfast &amp; lunch on day two</li>
+        <li class="w3-padding-16">Helicopter flight out of the rapids on day two. If   you prefer not to fly then other arrangements can be made</li>
+        <li> Emailed Experienced Photos</li>
+        <li>Snacks and Beverages</li>
+        <li> Amenities such as Sunscreen, Insect Repellant, Towels, Etc.</li>
+        <li> Paddling Instruction</li>
+        <li>Professional and Courteous Treatment</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 200</h2>
+          <span class="w3-opacity">per person</span></li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large"><a href="about.html" style="text-decoration: none;">Contact Us</a></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+  <!-- Grid -->
+  
+
+  <!-- Contact -->
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Wild River Rapids©</h4>
+    <h4>550 Walter Lott Road
+	   <br/>
+	   Ellisville, MS 39440</h4>
+	   
+    wildriverrapids.com <br/>
+	ESTABLISHED 2019<br/>
+	Opens 8AM-6PM
+	<br/>
+	 April 5-October5
+    <p>123-456-7890</p>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p><a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"></a></p>
+</footer>
+</div>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
